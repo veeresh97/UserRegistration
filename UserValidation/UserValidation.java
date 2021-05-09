@@ -14,7 +14,7 @@ static Scanner sc = new Scanner(System.in);
                 // PhoneNumber validation
                 System.out.println("Mobile Number: " + Pattern.matches("^[9][1][\s][6-9]{1}[0-9]{9}$", mobile));
                 // Password validation (Rule 4: one special character should be there)
-                System.out.println("Password: " + Pattern.matches("^(?=.*[\\@\\#\\$\\%\\&\\_\\,\\.])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{7,}$", password));
+                System.out.println("Password: " + Pattern.matches("^(?=.*[\\@\\#\\$\\%\\&\\_\\,\\.])(?=.*[0-9])[a-zA-Z0-9]{7,}$", password));
         }
         public static void main(String[] args) {
                 System.out.println("Enter a valid first name");
