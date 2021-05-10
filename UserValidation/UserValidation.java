@@ -13,7 +13,7 @@ static Scanner sc = new Scanner(System.in);
                 System.out.println("E-Mail: " + Pattern.matches("[a-zA-Z-\\+]+(\\.[a-zA-Z0-9-]+)*@[A-Za-z-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$", email));
                 // PhoneNumber validation
                 System.out.println("Mobile Number: " + Pattern.matches("^[9][1][\s][6-9]{1}[0-9]{9}$", mobile));
-                // Password validation (Rule 4: one special character should be there)
+                // Password validation (Rule 5: Passing all the sample test case)
                 System.out.println("Password: " + Pattern.matches("^(?=.*[\\@\\#\\$\\%\\&\\_\\,\\.])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{7,}$", password));
         }
         public static void main(String[] args) {
